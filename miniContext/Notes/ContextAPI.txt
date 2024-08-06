@@ -1,3 +1,36 @@
 1. We will make a Global File to pass the variables bttw the components which is also known as Prop Drilling
 2. Context API, Redux, reactRedux, ReduxToolkit, Zustand
 3. useContext use hoga
+
+Context API - W3School
+1. React Context is a way to manage state globally.
+
+RoadMap from Histesh Sir
+1. Create a UserContext
+
+    UserContext.js
+        React.createContext() and export
+
+2. Create a UserContextProvider
+
+    UserContextProvider.jsx
+        Syntax:
+         const UserContextProvider = ({children}) => {
+    const [user,setUser] = useState(null)
+    
+    return(
+        <UserContext.Provider value={{user,setUser}}>
+        {children}
+        </UserContext.Provider>
+    )
+
+    :to make sure all the components are aware of the UserContext
+    that there is a global state and they can access the data
+
+3. To ensure all the components are aware about the contextAPI
+    <UserContextProvider>
+      <Login />
+      <Profile />
+    </UserContextProvider>
+
+4. Consume the Context in the child components
