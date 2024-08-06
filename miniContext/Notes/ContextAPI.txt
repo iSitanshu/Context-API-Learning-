@@ -1,0 +1,3 @@
+1. We will make a Global File to pass the variables bttw the components which is also known as Prop Drilling
+2. Context API, Redux, reactRedux, ReduxToolkit, Zustand
+3. useContext use hoga
