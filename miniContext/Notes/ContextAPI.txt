@@ -34,3 +34,14 @@ RoadMap from Histesh Sir
     </UserContextProvider>
 
 4. Consume the Context in the child components
+
+
+
+Method 2 : 
+Main idea is to change the dark aand light theme in the website 
+on toggling the btn the information update to all the components using contextAPI
+
+1. create a js file in a context folder previously haam 2 file bana rahe thy 
+   UserContext.js and UserContextProvider.jsx ek context create kr raha tha 
+   aur doosra saare component ko aware krwa raha tha but yaha ek file hi bnne gi
+
